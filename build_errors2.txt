@@ -1,0 +1,96 @@
+﻿[33mΓ¥»[39m Building...
+[32mΓ£ö[39m Building...
+Application bundle generation failed. [4.808 seconds] - 2026-04-04T18:43:16.023Z
+
+node.exe : 
+[1m[33m[33mΓû▓ [43;33m
+[[43;30mWARNING[43;33m]
+[0m [1mNG8113: 
+DecimalPipe is not used 
+within the template of 
+DashboardComponent[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+At C:\Program 
+Files\nodejs\npx.ps1:16 
+char:5
++     & 
+"$basedir/node$exe"  "$bas
+edir/node_modules/npm/bin/
+npx-cli.js" ...
++     ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo        
+      : NotSpecified: (  
+  [1m[33m[33mΓ...r-co   
+ mpiler][0m:String) [    
+], RemoteException
+    + FullyQualifiedError 
+   Id : NativeCommandErr  
+  or
+ 
+
+    src/app/features/dashb
+oard/dashboard.component.t
+s:20:74:
+[37m      20 Γöé 
+...nent, LoaderComponent, 
+BadgeComponent, 
+CurrencyPipe, 
+[32mDecimalPipe[37m],
+         Γò╡              
+                          
+                 
+[32m~~~~~~~~~~~[0m
+
+
+[33mΓû▓ [43;33m[[43;30m
+WARNING[43;33m][0m 
+[1mNG8113: 
+SelectComponent is not 
+used within the template 
+of ProductsComponent[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/produ
+cts/products.component.ts:
+26:57:
+[37m      26 Γöé 
+...tyStateComponent, 
+ModalComponent, 
+InputComponent, 
+[32mSelectComponent[37m,
+         Γò╡              
+                          
+              
+[32m~~~~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[
+[41;97mERROR[41;31m][0m 
+[1mNG8004: No pipe found 
+with name 'json'.
+To fix this, import the 
+"JsonPipe" class from 
+"@angular/common" and add 
+it to the "imports" array 
+of the component.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/audit
+/audit.component.ts:77:148
+:
+[37m      77 Γöé ...-3 
+overflow-x-auto 
+animate-fade-in">{{ 
+log.details | 
+[32mjson[37m }}</pre>
+         Γò╡              
+                          
+                 
+[32m~~~~[0m
+
+[39m[22m

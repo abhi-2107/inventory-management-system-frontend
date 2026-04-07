@@ -1,0 +1,4115 @@
+﻿[33mΓ¥»[39m Building...
+[32mΓ£ö[39m Building...
+Application bundle generation failed. [2.689 seconds] - 2026-04-04T18:38:28.334Z
+
+node.exe : 
+[1m[31m[31mX [41;31m[
+[41;97mERROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../shared/ui
+/card/card.component' or 
+its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+At C:\Program 
+Files\nodejs\npx.ps1:16 
+char:5
++     & 
+"$basedir/node$exe"  "$bas
+edir/node_modules/npm/bin/
+npx-cli.js" ...
++     ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo        
+      : NotSpecified: (  
+  [1m[31m[31mX...r-co   
+ mpiler][0m:String) [    
+], RemoteException
+    + FullyQualifiedError 
+   Id : NativeCommandErr  
+  or
+ 
+
+    src/app/features/audit
+/audit.component.ts:3:30:
+[37m      3 Γöé ...rt { 
+CardComponent } from [32m
+'../../../shared/ui/card/c
+ard.component'[37m;
+        Γò╡               
+               [32m~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../shared/ui
+/badge/badge.component' 
+or its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/audit
+/audit.component.ts:4:31:
+[37m      4 Γöé ...{ 
+BadgeComponent } from [32
+m'../../../shared/ui/badge
+/badge.component'[37m;
+        Γò╡               
+             [32m~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../shared/ui
+/loader/loader.component' 
+or its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/audit
+/audit.component.ts:5:32:
+[37m      5 Γöé 
+...oaderComponent } from 
+[32m'../../../shared/ui/lo
+ader/loader.component'[37
+m;
+        Γò╡               
+           [32m~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../shared/ui
+/empty-state/empty-state.c
+omponent' or its 
+corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/audit
+/audit.component.ts:6:36:
+[37m      6 Γöé ...nent 
+} from [32m'../../../shar
+ed/ui/empty-state/empty-st
+ate.component'[37m;
+        Γò╡               
+ [32m~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../core/serv
+ices/audit.service' or 
+its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/audit
+/audit.component.ts:7:29:
+[37m      7 Γöé import { 
+AuditService } from [32m'
+../../../core/services/aud
+it.service'[37m;
+        Γò╡               
+               [32m~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module 
+'../../../core/models' or 
+its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/audit
+/audit.component.ts:8:25:
+[37m      8 Γöé import { 
+AuditLog } from [32m'../.
+./../core/models'[37m;
+        Γò╡               
+           [32m~~~~~~~~~~
+~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mNG1010: 'imports' 
+must be an array of 
+components, directives, 
+pipes, or NgModules.
+  Value could not be 
+determined 
+statically.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/audit
+/audit.component.ts:13:22:
+[37m      13 Γöé   
+imports: [DatePipe, 
+[32mCardComponent[37m, 
+BadgeComponent, 
+LoaderCompone...
+         Γò╡              
+         
+[32m~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/audit
+/audit.component.ts:13:22:
+[37m      13 Γöé   
+imports: [DatePipe, 
+[32mCardComponent[37m, 
+BadgeComponent, 
+LoaderCompone...
+         Γò╡              
+         
+[32m~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mNG1010: 'imports' 
+must be an array of 
+components, directives, 
+pipes, or NgModules.
+  Value could not be 
+determined 
+statically.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/audit
+/audit.component.ts:13:37:
+[37m      13 Γöé 
+...DatePipe, 
+CardComponent, 
+[32mBadgeComponent[37m, 
+LoaderComponent, Empty...
+         Γò╡              
+               
+[32m~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/audit
+/audit.component.ts:13:37:
+[37m      13 Γöé 
+...DatePipe, 
+CardComponent, 
+[32mBadgeComponent[37m, 
+LoaderComponent, Empty...
+         Γò╡              
+               
+[32m~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mNG1010: 'imports' 
+must be an array of 
+components, directives, 
+pipes, or NgModules.
+  Value could not be 
+determined 
+statically.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/audit
+/audit.component.ts:13:53:
+[37m      13 Γöé 
+...dComponent, 
+BadgeComponent, [32mLoade
+rComponent[37m, 
+EmptyStateComponent],
+         Γò╡              
+                  
+[32m~~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/audit
+/audit.component.ts:13:53:
+[37m      13 Γöé 
+...dComponent, 
+BadgeComponent, [32mLoade
+rComponent[37m, 
+EmptyStateComponent],
+         Γò╡              
+                  
+[32m~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mNG1010: 'imports' 
+must be an array of 
+components, directives, 
+pipes, or NgModules.
+  Value could not be 
+determined 
+statically.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/audit
+/audit.component.ts:13:70:
+[37m      13 Γöé 
+...dComponent, 
+BadgeComponent, 
+LoaderComponent, [32mEmpt
+yStateComponent[37m],
+         Γò╡              
+                          
+         [32m~~~~~~~~~~~~
+~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/audit
+/audit.component.ts:13:70:
+[37m      13 Γöé 
+...dComponent, 
+BadgeComponent, 
+LoaderComponent, [32mEmpt
+yStateComponent[37m],
+         Γò╡              
+                          
+         [32m~~~~~~~~~~~~
+~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2571: Object is of 
+type 'unknown'.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/audit
+/audit.component.ts:101:4:
+[37m      101 Γöé     [3
+2mthis.auditService[37m.g
+etLogs().subscribe({
+          Γò╡     
+[32m~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS7006: Parameter 
+'logs' implicitly has an 
+'any' type.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/audit
+/audit.component.ts:102:13
+:
+[37m      102 Γöé       
+next: ([32mlogs[37m) => 
+{
+          Γò╡             
+ [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../shared/ui
+/card/card.component' or 
+its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:2:30:
+[37m      2 Γöé ...rt { 
+CardComponent } from [32m
+'../../../shared/ui/card/c
+ard.component'[37m;
+        Γò╡               
+               [32m~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../shared/ui
+/button/button.component' 
+or its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:3:32:
+[37m      3 Γöé 
+...uttonComponent } from 
+[32m'../../../shared/ui/bu
+tton/button.component'[37
+m;
+        Γò╡               
+           [32m~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../shared/ui
+/badge/badge.component' 
+or its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:4:31:
+[37m      4 Γöé ...{ 
+BadgeComponent } from [32
+m'../../../shared/ui/badge
+/badge.component'[37m;
+        Γò╡               
+             [32m~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../shared/ui
+/loader/loader.component' 
+or its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:5:32:
+[37m      5 Γöé 
+...oaderComponent } from 
+[32m'../../../shared/ui/lo
+ader/loader.component'[37
+m;
+        Γò╡               
+           [32m~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../shared/ui
+/empty-state/empty-state.c
+omponent' or its 
+corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:6:36:
+[37m      6 Γöé ...nent 
+} from [32m'../../../shar
+ed/ui/empty-state/empty-st
+ate.component'[37m;
+        Γò╡               
+ [32m~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../shared/ui
+/modal/modal.component' 
+or its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:7:31:
+[37m      7 Γöé ...{ 
+ModalComponent } from [32
+m'../../../shared/ui/modal
+/modal.component'[37m;
+        Γò╡               
+             [32m~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../shared/ui
+/input/input.component' 
+or its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:8:31:
+[37m      8 Γöé ...{ 
+InputComponent } from [32
+m'../../../shared/ui/input
+/input.component'[37m;
+        Γò╡               
+             [32m~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../shared/ui
+/confirm-dialog/confirm-di
+alog.component' or its 
+corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:9:39:
+[37m      9 Γöé ...ent } 
+from [32m'../../../shared
+/ui/confirm-dialog/confirm
+-dialog.com[37m...
+        Γò╡               
+[32m~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../core/serv
+ices/category.service' or 
+its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:10:32:
+[37m      10 Γöé ... 
+CategoryService } from [3
+2m'../../../core/services/
+category.service'[37m;
+         Γò╡              
+              [32m~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../core/auth
+/auth.service' or its 
+corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:11:28:
+[37m      11 Γöé import 
+{ AuthService } from [32m
+'../../../core/auth/auth.s
+ervice'[37m;
+         Γò╡              
+               [32m~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../core/serv
+ices/toast.service' or 
+its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:12:29:
+[37m      12 Γöé import 
+{ ToastService } from [32
+m'../../../core/services/t
+oast.service'[37m;
+         Γò╡              
+                [32m~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module 
+'../../../core/models' or 
+its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:13:25:
+[37m      13 Γöé import 
+{ Category } from [32m'..
+/../../core/models'[37m;
+         Γò╡              
+            [32m~~~~~~~~~
+~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mNG1010: 'imports' 
+must be an array of 
+components, directives, 
+pipes, or NgModules.
+  Value could not be 
+determined 
+statically.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:21:4:
+[37m      21 Γöé     
+[32mCardComponent[37m, 
+ButtonComponent, 
+BadgeComponent, 
+LoaderComponent,
+         Γò╡     
+[32m~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/categ
+ories/categories.component
+.ts:21:4:
+[37m      21 Γöé     
+[32mCardComponent[37m, 
+ButtonComponent, 
+BadgeComponent, 
+LoaderComponent,
+         Γò╡     
+[32m~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mNG1010: 'imports' 
+must be an array of 
+components, directives, 
+pipes, or NgModules.
+  Value could not be 
+determined 
+statically.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:21:19:
+[37m      21 Γöé     
+CardComponent, [32mButton
+Component[37m, 
+BadgeComponent, 
+LoaderComponent,
+         Γò╡              
+      
+[32m~~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/categ
+ories/categories.component
+.ts:21:19:
+[37m      21 Γöé     
+CardComponent, [32mButton
+Component[37m, 
+BadgeComponent, 
+LoaderComponent,
+         Γò╡              
+      
+[32m~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mNG1010: 'imports' 
+must be an array of 
+components, directives, 
+pipes, or NgModules.
+  Value could not be 
+determined 
+statically.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:21:36:
+[37m      21 Γöé     
+CardComponent, 
+ButtonComponent, 
+[32mBadgeComponent[37m, 
+LoaderComponent,
+         Γò╡              
+                       
+[32m~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/categ
+ories/categories.component
+.ts:21:36:
+[37m      21 Γöé     
+CardComponent, 
+ButtonComponent, 
+[32mBadgeComponent[37m, 
+LoaderComponent,
+         Γò╡              
+                       
+[32m~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mNG1010: 'imports' 
+must be an array of 
+components, directives, 
+pipes, or NgModules.
+  Value could not be 
+determined 
+statically.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:21:52:
+[37m      21 Γöé     
+CardComponent, 
+ButtonComponent, 
+BadgeComponent, 
+[32mLoaderComponent[37m,
+         Γò╡              
+                          
+             
+[32m~~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/categ
+ories/categories.component
+.ts:21:52:
+[37m      21 Γöé     
+CardComponent, 
+ButtonComponent, 
+BadgeComponent, 
+[32mLoaderComponent[37m,
+         Γò╡              
+                          
+             
+[32m~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mNG1010: 'imports' 
+must be an array of 
+components, directives, 
+pipes, or NgModules.
+  Value could not be 
+determined 
+statically.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:22:4:
+[37m      22 Γöé     [32
+mEmptyStateComponent[37m,
+ ModalComponent, 
+InputComponent, 
+ConfirmDi...
+         Γò╡     [32m~~~~
+~~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/categ
+ories/categories.component
+.ts:22:4:
+[37m      22 Γöé     [32
+mEmptyStateComponent[37m,
+ ModalComponent, 
+InputComponent, 
+ConfirmDi...
+         Γò╡     [32m~~~~
+~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mNG1010: 'imports' 
+must be an array of 
+components, directives, 
+pipes, or NgModules.
+  Value could not be 
+determined 
+statically.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:22:25:
+[37m      22 Γöé     
+EmptyStateComponent, 
+[32mModalComponent[37m, 
+InputComponent, 
+ConfirmDi...
+         Γò╡              
+            
+[32m~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/categ
+ories/categories.component
+.ts:22:25:
+[37m      22 Γöé     
+EmptyStateComponent, 
+[32mModalComponent[37m, 
+InputComponent, 
+ConfirmDi...
+         Γò╡              
+            
+[32m~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mNG1010: 'imports' 
+must be an array of 
+components, directives, 
+pipes, or NgModules.
+  Value could not be 
+determined 
+statically.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:22:41:
+[37m      22 Γöé 
+...Component, 
+ModalComponent, 
+[32mInputComponent[37m, 
+ConfirmDialogComponent,
+         Γò╡              
+                 
+[32m~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/categ
+ories/categories.component
+.ts:22:41:
+[37m      22 Γöé 
+...Component, 
+ModalComponent, 
+[32mInputComponent[37m, 
+ConfirmDialogComponent,
+         Γò╡              
+                 
+[32m~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mNG1010: 'imports' 
+must be an array of 
+components, directives, 
+pipes, or NgModules.
+  Value could not be 
+determined 
+statically.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:22:57:
+[37m      22 Γöé 
+...Component, 
+ModalComponent, 
+InputComponent, [32mConfi
+rmDialogComponent[37m,
+         Γò╡              
+                          
+       [32m~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/categ
+ories/categories.component
+.ts:22:57:
+[37m      22 Γöé 
+...Component, 
+ModalComponent, 
+InputComponent, [32mConfi
+rmDialogComponent[37m,
+         Γò╡              
+                          
+       [32m~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2571: Object is of 
+type 'unknown'.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:172:4:
+[37m      172 Γöé     [3
+2mthis.categoryService[37
+m.getAll().subscribe({
+          Γò╡     [32m~~~
+~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS7006: Parameter 
+'cats' implicitly has an 
+'any' type.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:173:13:
+[37m      173 Γöé       
+next: ([32mcats[37m) => 
+{
+          Γò╡             
+ [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2571: Object is of 
+type 'unknown'.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:209:6:
+[37m      209 Γöé       
+[32mthis.categoryService[
+37m.update(editing.id, 
+data).subscribe({
+          Γò╡       [32m~
+~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS7006: Parameter 
+'updated' implicitly has 
+an 'any' type.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:210:15:
+[37m      210 Γöé        
+ next: 
+([32mupdated[37m) => {
+          Γò╡             
+   [32m~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2571: Object is of 
+type 'unknown'.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:212:10:
+[37m      212 Γöé        
+   [32mthis.toast[37m.su
+ccess('Category Updated');
+          Γò╡           
+[32m~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS7006: Parameter 
+'err' implicitly has an 
+'any' type.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:216:16:
+[37m      216 Γöé        
+ error: ([32merr[37m) 
+=> {
+          Γò╡             
+    [32m~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2571: Object is of 
+type 'unknown'.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:217:10:
+[37m      217 Γöé        
+   [32mthis.toast[37m.er
+ror('Update Failed', 
+err.error?.error || '...
+          Γò╡           
+[32m~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2571: Object is of 
+type 'unknown'.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:222:6:
+[37m      222 Γöé       
+[32mthis.categoryService[
+37m.create(data).subscribe
+({
+          Γò╡       [32m~
+~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS7006: Parameter 
+'newCat' implicitly has 
+an 'any' type.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:223:15:
+[37m      223 Γöé        
+ next: ([32mnewCat[37m) 
+=> {
+          Γò╡             
+   [32m~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2571: Object is of 
+type 'unknown'.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:225:10:
+[37m      225 Γöé        
+   [32mthis.toast[37m.su
+ccess('Category Created');
+          Γò╡           
+[32m~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS7006: Parameter 
+'err' implicitly has an 
+'any' type.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:229:16:
+[37m      229 Γöé        
+ error: ([32merr[37m) 
+=> {
+          Γò╡             
+    [32m~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2571: Object is of 
+type 'unknown'.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:230:10:
+[37m      230 Γöé        
+   [32mthis.toast[37m.er
+ror('Create Failed', 
+err.error?.error || '...
+          Γò╡           
+[32m~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2571: Object is of 
+type 'unknown'.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:246:4:
+[37m      246 Γöé     [3
+2mthis.categoryService[37
+m.delete(cat.id).subscribe
+({
+          Γò╡     [32m~~~
+~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2571: Object is of 
+type 'unknown'.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:249:8:
+[37m      249 Γöé        
+ [32mthis.toast[37m.succ
+ess('Category Deleted');
+          Γò╡         
+[32m~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS7006: Parameter 
+'err' implicitly has an 
+'any' type.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:252:14:
+[37m      252 Γöé       
+error: ([32merr[37m) => 
+{
+          Γò╡             
+  [32m~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2571: Object is of 
+type 'unknown'.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:253:8:
+[37m      253 Γöé        
+ [32mthis.toast[37m.erro
+r('Delete Failed', 
+err.error?.error || 'So...
+          Γò╡         
+[32m~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../shared/ui
+/card/card.component' or 
+its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/dashb
+oard/dashboard.component.t
+s:3:30:
+[37m      3 Γöé ...rt { 
+CardComponent } from [32m
+'../../../shared/ui/card/c
+ard.component'[37m;
+        Γò╡               
+               [32m~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../shared/ui
+/loader/loader.component' 
+or its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/dashb
+oard/dashboard.component.t
+s:4:32:
+[37m      4 Γöé 
+...oaderComponent } from 
+[32m'../../../shared/ui/lo
+ader/loader.component'[37
+m;
+        Γò╡               
+           [32m~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../shared/ui
+/badge/badge.component' 
+or its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/dashb
+oard/dashboard.component.t
+s:5:31:
+[37m      5 Γöé ...{ 
+BadgeComponent } from [32
+m'../../../shared/ui/badge
+/badge.component'[37m;
+        Γò╡               
+             [32m~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../core/serv
+ices/product.service' or 
+its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/dashb
+oard/dashboard.component.t
+s:6:31:
+[37m      6 Γöé ...t { 
+ProductService } from [32
+m'../../../core/services/p
+roduct.service'[37m;
+        Γò╡               
+               [32m~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../core/serv
+ices/category.service' or 
+its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/dashb
+oard/dashboard.component.t
+s:7:32:
+[37m      7 Γöé ...{ 
+CategoryService } from [3
+2m'../../../core/services/
+category.service'[37m;
+        Γò╡               
+              [32m~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../core/serv
+ices/inventory.service' 
+or its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/dashb
+oard/dashboard.component.t
+s:8:33:
+[37m      8 Γöé 
+...InventoryService } 
+from [32m'../../../core/s
+ervices/inventory.service'
+[37m;
+        Γò╡               
+             [32m~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../core/serv
+ices/organization.service'
+ or its corresponding 
+type declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/dashb
+oard/dashboard.component.t
+s:9:36:
+[37m      9 Γöé 
+...zationService } from [
+32m'../../../core/services
+/organization.service'[37
+m;
+        Γò╡               
+          [32m~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../core/auth
+/auth.service' or its 
+corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/dashb
+oard/dashboard.component.t
+s:10:28:
+[37m      10 Γöé import 
+{ AuthService } from [32m
+'../../../core/auth/auth.s
+ervice'[37m;
+         Γò╡              
+               [32m~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module 
+'../../../core/models' or 
+its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/dashb
+oard/dashboard.component.t
+s:11:63:
+[37m      11 Γöé 
+...tegory, StockMovement, 
+Organization } from [32m'
+../../../core/models'[37m
+;
+         Γò╡              
+                          
+       [32m~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mNG1010: 'imports' 
+must be an array of 
+components, directives, 
+pipes, or NgModules.
+  Value could not be 
+determined 
+statically.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/dashb
+oard/dashboard.component.t
+s:20:12:
+[37m      20 Γöé   
+imports: 
+[[32mCardComponent[37m, 
+LoaderComponent, 
+BadgeComponent, Curren...
+         Γò╡             
+[32m~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/dashb
+oard/dashboard.component.t
+s:20:12:
+[37m      20 Γöé   
+imports: 
+[[32mCardComponent[37m, 
+LoaderComponent, 
+BadgeComponent, Curren...
+         Γò╡             
+[32m~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mNG1010: 'imports' 
+must be an array of 
+components, directives, 
+pipes, or NgModules.
+  Value could not be 
+determined 
+statically.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/dashb
+oard/dashboard.component.t
+s:20:27:
+[37m      20 Γöé   
+imports: [CardComponent, 
+[32mLoaderComponent[37m, 
+BadgeComponent, Curren...
+         Γò╡              
+              
+[32m~~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/dashb
+oard/dashboard.component.t
+s:20:27:
+[37m      20 Γöé   
+imports: [CardComponent, 
+[32mLoaderComponent[37m, 
+BadgeComponent, Curren...
+         Γò╡              
+              
+[32m~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mNG1010: 'imports' 
+must be an array of 
+components, directives, 
+pipes, or NgModules.
+  Value could not be 
+determined 
+statically.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/dashb
+oard/dashboard.component.t
+s:20:44:
+[37m      20 Γöé 
+...ponent, 
+LoaderComponent, 
+[32mBadgeComponent[37m, 
+CurrencyPipe, DecimalP...
+         Γò╡              
+               
+[32m~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/dashb
+oard/dashboard.component.t
+s:20:44:
+[37m      20 Γöé 
+...ponent, 
+LoaderComponent, 
+[32mBadgeComponent[37m, 
+CurrencyPipe, DecimalP...
+         Γò╡              
+               
+[32m~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2571: Object is of 
+type 'unknown'.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/dashb
+oard/dashboard.component.t
+s:225:16:
+[37m      225 Γöé       
+products: [32mthis.produc
+tService[37m.getAll(),
+          Γò╡             
+    [32m~~~~~~~~~~~~~~~~~
+~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2571: Object is of 
+type 'unknown'.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/dashb
+oard/dashboard.component.t
+s:226:18:
+[37m      226 Γöé       
+categories: [32mthis.cate
+goryService[37m.getAll(),
+          Γò╡             
+      [32m~~~~~~~~~~~~~~~
+~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2571: Object is of 
+type 'unknown'.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/dashb
+oard/dashboard.component.t
+s:227:17:
+[37m      227 Γöé       
+movements: [32mthis.inven
+toryService[37m.getMoveme
+nts(),
+          Γò╡             
+     [32m~~~~~~~~~~~~~~~~
+~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../shared/ui
+/card/card.component' or 
+its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/produ
+cts/products.component.ts:
+4:30:
+[37m      4 Γöé ...rt { 
+CardComponent } from [32m
+'../../../shared/ui/card/c
+ard.component'[37m;
+        Γò╡               
+               [32m~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../shared/ui
+/button/button.component' 
+or its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/produ
+cts/products.component.ts:
+5:32:
+[37m      5 Γöé 
+...uttonComponent } from 
+[32m'../../../shared/ui/bu
+tton/button.component'[37
+m;
+        Γò╡               
+           [32m~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../shared/ui
+/badge/badge.component' 
+or its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/produ
+cts/products.component.ts:
+6:31:
+[37m      6 Γöé ...{ 
+BadgeComponent } from [32
+m'../../../shared/ui/badge
+/badge.component'[37m;
+        Γò╡               
+             [32m~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../shared/ui
+/loader/loader.component' 
+or its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/produ
+cts/products.component.ts:
+7:32:
+[37m      7 Γöé 
+...oaderComponent } from 
+[32m'../../../shared/ui/lo
+ader/loader.component'[37
+m;
+        Γò╡               
+           [32m~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../shared/ui
+/empty-state/empty-state.c
+omponent' or its 
+corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/produ
+cts/products.component.ts:
+8:36:
+[37m      8 Γöé ...nent 
+} from [32m'../../../shar
+ed/ui/empty-state/empty-st
+ate.component'[37m;
+        Γò╡               
+ [32m~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../shared/ui
+/modal/modal.component' 
+or its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/produ
+cts/products.component.ts:
+9:31:
+[37m      9 Γöé ...{ 
+ModalComponent } from [32
+m'../../../shared/ui/modal
+/modal.component'[37m;
+        Γò╡               
+             [32m~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../shared/ui
+/input/input.component' 
+or its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/produ
+cts/products.component.ts:
+10:31:
+[37m      10 Γöé ... 
+InputComponent } from [32
+m'../../../shared/ui/input
+/input.component'[37m;
+         Γò╡              
+             [32m~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../shared/ui
+/select/select.component' 
+or its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/produ
+cts/products.component.ts:
+11:32:
+[37m      11 Γöé 
+...lectComponent } from [
+32m'../../../shared/ui/sel
+ect/select.component'[37m
+;
+         Γò╡              
+           [32m~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../shared/ui
+/confirm-dialog/confirm-di
+alog.component' or its 
+corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/produ
+cts/products.component.ts:
+12:39:
+[37m      12 Γöé ...nt } 
+from [32m'../../../shared
+/ui/confirm-dialog/confirm
+-dialog.com[37m...
+         Γò╡              
+[32m~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../core/serv
+ices/product.service' or 
+its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/produ
+cts/products.component.ts:
+13:31:
+[37m      13 Γöé ... { 
+ProductService } from [32
+m'../../../core/services/p
+roduct.service'[37m;
+         Γò╡              
+               [32m~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../core/serv
+ices/category.service' or 
+its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/produ
+cts/products.component.ts:
+14:32:
+[37m      14 Γöé ... 
+CategoryService } from [3
+2m'../../../core/services/
+category.service'[37m;
+         Γò╡              
+              [32m~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../core/auth
+/auth.service' or its 
+corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/produ
+cts/products.component.ts:
+15:28:
+[37m      15 Γöé import 
+{ AuthService } from [32m
+'../../../core/auth/auth.s
+ervice'[37m;
+         Γò╡              
+               [32m~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../core/serv
+ices/toast.service' or 
+its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/produ
+cts/products.component.ts:
+16:29:
+[37m      16 Γöé import 
+{ ToastService } from [32
+m'../../../core/services/t
+oast.service'[37m;
+         Γò╡              
+                [32m~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module 
+'../../../core/models' or 
+its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/produ
+cts/products.component.ts:
+17:34:
+[37m      17 Γöé import 
+{ Product, Category } 
+from [32m'../../../core/m
+odels'[37m;
+         Γò╡              
+                     [32m
+~~~~~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mNG1010: 'imports' 
+must be an array of 
+components, directives, 
+pipes, or NgModules.
+  Value could not be 
+determined 
+statically.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/produ
+cts/products.component.ts:
+25:4:
+[37m      25 Γöé     
+[32mCardComponent[37m, 
+ButtonComponent, 
+BadgeComponent, 
+LoaderComponent,
+         Γò╡     
+[32m~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/produ
+cts/products.component.ts:
+25:4:
+[37m      25 Γöé     
+[32mCardComponent[37m, 
+ButtonComponent, 
+BadgeComponent, 
+LoaderComponent,
+         Γò╡     
+[32m~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mNG1010: 'imports' 
+must be an array of 
+components, directives, 
+pipes, or NgModules.
+  Value could not be 
+determined 
+statically.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/produ
+cts/products.component.ts:
+25:19:
+[37m      25 Γöé     
+CardComponent, [32mButton
+Component[37m, 
+BadgeComponent, 
+LoaderComponent,
+         Γò╡              
+      
+[32m~~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/produ
+cts/products.component.ts:
+25:19:
+[37m      25 Γöé     
+CardComponent, [32mButton
+Component[37m, 
+BadgeComponent, 
+LoaderComponent,
+         Γò╡              
+      
+[32m~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mNG1010: 'imports' 
+must be an array of 
+components, directives, 
+pipes, or NgModules.
+  Value could not be 
+determined 
+statically.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/produ
+cts/products.component.ts:
+25:36:
+[37m      25 Γöé     
+CardComponent, 
+ButtonComponent, 
+[32mBadgeComponent[37m, 
+LoaderComponent,
+         Γò╡              
+                       
+[32m~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/produ
+cts/products.component.ts:
+25:36:
+[37m      25 Γöé     
+CardComponent, 
+ButtonComponent, 
+[32mBadgeComponent[37m, 
+LoaderComponent,
+         Γò╡              
+                       
+[32m~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mNG1010: 'imports' 
+must be an array of 
+components, directives, 
+pipes, or NgModules.
+  Value could not be 
+determined 
+statically.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/produ
+cts/products.component.ts:
+25:52:
+[37m      25 Γöé     
+CardComponent, 
+ButtonComponent, 
+BadgeComponent, 
+[32mLoaderComponent[37m,
+         Γò╡              
+                          
+             
+[32m~~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/produ
+cts/products.component.ts:
+25:52:
+[37m      25 Γöé     
+CardComponent, 
+ButtonComponent, 
+BadgeComponent, 
+[32mLoaderComponent[37m,
+         Γò╡              
+                          
+             
+[32m~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mNG1010: 'imports' 
+must be an array of 
+components, directives, 
+pipes, or NgModules.
+  Value could not be 
+determined 
+statically.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/produ
+cts/products.component.ts:
+26:4:
+[37m      26 Γöé     [32
+mEmptyStateComponent[37m,
+ ModalComponent, 
+InputComponent, 
+SelectCom...
+         Γò╡     [32m~~~~
+~~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/produ
+cts/products.component.ts:
+26:4:
+[37m      26 Γöé     [32
+mEmptyStateComponent[37m,
+ ModalComponent, 
+InputComponent, 
+SelectCom...
+         Γò╡     [32m~~~~
+~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mNG1010: 'imports' 
+must be an array of 
+components, directives, 
+pipes, or NgModules.
+  Value could not be 
+determined 
+statically.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/produ
+cts/products.component.ts:
+26:25:
+[37m      26 Γöé     
+EmptyStateComponent, 
+[32mModalComponent[37m, 
+InputComponent, 
+SelectCom...
+         Γò╡              
+            
+[32m~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/produ
+cts/products.component.ts:
+26:25:
+[37m      26 Γöé     
+EmptyStateComponent, 
+[32mModalComponent[37m, 
+InputComponent, 
+SelectCom...
+         Γò╡              
+            
+[32m~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mNG1010: 'imports' 
+must be an array of 
+components, directives, 
+pipes, or NgModules.
+  Value could not be 
+determined 
+statically.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/produ
+cts/products.component.ts:
+26:41:
+[37m      26 Γöé 
+...tyStateComponent, 
+ModalComponent, 
+[32mInputComponent[37m, 
+SelectComponent,
+         Γò╡              
+                        
+[32m~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/produ
+cts/products.component.ts:
+26:41:
+[37m      26 Γöé 
+...tyStateComponent, 
+ModalComponent, 
+[32mInputComponent[37m, 
+SelectComponent,
+         Γò╡              
+                        
+[32m~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mNG1010: 'imports' 
+must be an array of 
+components, directives, 
+pipes, or NgModules.
+  Value could not be 
+determined 
+statically.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/produ
+cts/products.component.ts:
+26:57:
+[37m      26 Γöé 
+...tyStateComponent, 
+ModalComponent, 
+InputComponent, 
+[32mSelectComponent[37m,
+         Γò╡              
+                          
+              
+[32m~~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/produ
+cts/products.component.ts:
+26:57:
+[37m      26 Γöé 
+...tyStateComponent, 
+ModalComponent, 
+InputComponent, 
+[32mSelectComponent[37m,
+         Γò╡              
+                          
+              
+[32m~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mNG1010: 'imports' 
+must be an array of 
+components, directives, 
+pipes, or NgModules.
+  Value could not be 
+determined 
+statically.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/produ
+cts/products.component.ts:
+27:4:
+[37m      27 Γöé     [32
+mConfirmDialogComponent[3
+7m,
+         Γò╡     [32m~~~~
+~~~~~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/produ
+cts/products.component.ts:
+27:4:
+[37m      27 Γöé     [32
+mConfirmDialogComponent[3
+7m,
+         Γò╡     [32m~~~~
+~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2571: Object is of 
+type 'unknown'.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/produ
+cts/products.component.ts:
+348:4:
+[37m      348 Γöé     [3
+2mthis.productService[37m
+.getAll().subscribe({
+          Γò╡     [32m~~~
+~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS7006: Parameter 
+'products' implicitly has 
+an 'any' type.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/produ
+cts/products.component.ts:
+349:13:
+[37m      349 Γöé       
+next: 
+([32mproducts[37m) => {
+          Γò╡             
+ [32m~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2571: Object is of 
+type 'unknown'.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/produ
+cts/products.component.ts:
+355:4:
+[37m      355 Γöé     [3
+2mthis.categoryService[37
+m.getAll().subscribe({
+          Γò╡     [32m~~~
+~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS7006: Parameter 
+'cats' implicitly has an 
+'any' type.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/produ
+cts/products.component.ts:
+356:13:
+[37m      356 Γöé       
+next: ([32mcats[37m) => 
+this.categories.set(cats),
+          Γò╡             
+ [32m~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2571: Object is of 
+type 'unknown'.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/produ
+cts/products.component.ts:
+399:6:
+[37m      399 Γöé       
+[32mthis.productService[3
+7m.update(editing.id, 
+updateData).subscribe({
+          Γò╡       [32m~
+~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS7006: Parameter 
+'updated' implicitly has 
+an 'any' type.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/produ
+cts/products.component.ts:
+400:15:
+[37m      400 Γöé        
+ next: 
+([32mupdated[37m) => {
+          Γò╡             
+   [32m~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2571: Object is of 
+type 'unknown'.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/produ
+cts/products.component.ts:
+402:10:
+[37m      402 Γöé        
+   [32mthis.toast[37m.su
+ccess('Product Updated');
+          Γò╡           
+[32m~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS7006: Parameter 
+'err' implicitly has an 
+'any' type.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/produ
+cts/products.component.ts:
+406:16:
+[37m      406 Γöé        
+ error: ([32merr[37m) 
+=> {
+          Γò╡             
+    [32m~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2571: Object is of 
+type 'unknown'.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/produ
+cts/products.component.ts:
+407:10:
+[37m      407 Γöé        
+   [32mthis.toast[37m.er
+ror('Update Failed', 
+err.error?.error || '...
+          Γò╡           
+[32m~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2571: Object is of 
+type 'unknown'.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/produ
+cts/products.component.ts:
+412:6:
+[37m      412 Γöé       
+[32mthis.productService[3
+7m.create(data).subscribe(
+{
+          Γò╡       [32m~
+~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS7006: Parameter 
+'newProduct' implicitly 
+has an 'any' type.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/produ
+cts/products.component.ts:
+413:15:
+[37m      413 Γöé        
+ next: 
+([32mnewProduct[37m) => 
+{
+          Γò╡             
+   [32m~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2571: Object is of 
+type 'unknown'.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/produ
+cts/products.component.ts:
+415:10:
+[37m      415 Γöé        
+   [32mthis.toast[37m.su
+ccess('Product Created');
+          Γò╡           
+[32m~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS7006: Parameter 
+'err' implicitly has an 
+'any' type.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/produ
+cts/products.component.ts:
+419:16:
+[37m      419 Γöé        
+ error: ([32merr[37m) 
+=> {
+          Γò╡             
+    [32m~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2571: Object is of 
+type 'unknown'.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/produ
+cts/products.component.ts:
+420:10:
+[37m      420 Γöé        
+   [32mthis.toast[37m.er
+ror('Create Failed', 
+err.error?.error || '...
+          Γò╡           
+[32m~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2571: Object is of 
+type 'unknown'.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/produ
+cts/products.component.ts:
+436:4:
+[37m      436 Γöé     [3
+2mthis.productService[37m
+.delete(product.id).subscr
+ibe({
+          Γò╡     [32m~~~
+~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2571: Object is of 
+type 'unknown'.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/produ
+cts/products.component.ts:
+439:8:
+[37m      439 Γöé        
+ [32mthis.toast[37m.succ
+ess('Product Deleted');
+          Γò╡         
+[32m~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS7006: Parameter 
+'err' implicitly has an 
+'any' type.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/produ
+cts/products.component.ts:
+443:14:
+[37m      443 Γöé       
+error: ([32merr[37m) => 
+{
+          Γò╡             
+  [32m~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2571: Object is of 
+type 'unknown'.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/produ
+cts/products.component.ts:
+444:8:
+[37m      444 Γöé        
+ [32mthis.toast[37m.erro
+r('Delete Failed', 
+err.error?.error || 'So...
+          Γò╡         
+[32m~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../shared/ui
+/card/card.component' or 
+its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/stock
+/stock.component.ts:4:30:
+[37m      4 Γöé ...rt { 
+CardComponent } from [32m
+'../../../shared/ui/card/c
+ard.component'[37m;
+        Γò╡               
+               [32m~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../shared/ui
+/button/button.component' 
+or its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/stock
+/stock.component.ts:5:32:
+[37m      5 Γöé 
+...uttonComponent } from 
+[32m'../../../shared/ui/bu
+tton/button.component'[37
+m;
+        Γò╡               
+           [32m~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../shared/ui
+/badge/badge.component' 
+or its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/stock
+/stock.component.ts:6:31:
+[37m      6 Γöé ...{ 
+BadgeComponent } from [32
+m'../../../shared/ui/badge
+/badge.component'[37m;
+        Γò╡               
+             [32m~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../shared/ui
+/loader/loader.component' 
+or its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/stock
+/stock.component.ts:7:32:
+[37m      7 Γöé 
+...oaderComponent } from 
+[32m'../../../shared/ui/lo
+ader/loader.component'[37
+m;
+        Γò╡               
+           [32m~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../shared/ui
+/empty-state/empty-state.c
+omponent' or its 
+corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/stock
+/stock.component.ts:8:36:
+[37m      8 Γöé ...nent 
+} from [32m'../../../shar
+ed/ui/empty-state/empty-st
+ate.component'[37m;
+        Γò╡               
+ [32m~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../shared/ui
+/modal/modal.component' 
+or its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/stock
+/stock.component.ts:9:31:
+[37m      9 Γöé ...{ 
+ModalComponent } from [32
+m'../../../shared/ui/modal
+/modal.component'[37m;
+        Γò╡               
+             [32m~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../shared/ui
+/input/input.component' 
+or its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/stock
+/stock.component.ts:10:31:
+[37m      10 Γöé ... 
+InputComponent } from [32
+m'../../../shared/ui/input
+/input.component'[37m;
+         Γò╡              
+             [32m~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../core/serv
+ices/inventory.service' 
+or its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/stock
+/stock.component.ts:11:33:
+[37m      11 Γöé 
+...nventoryService } from 
+[32m'../../../core/servic
+es/inventory.service'[37m
+;
+         Γò╡              
+             [32m~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../core/serv
+ices/product.service' or 
+its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/stock
+/stock.component.ts:12:31:
+[37m      12 Γöé ... { 
+ProductService } from [32
+m'../../../core/services/p
+roduct.service'[37m;
+         Γò╡              
+               [32m~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module '../../../core/serv
+ices/toast.service' or 
+its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/stock
+/stock.component.ts:13:29:
+[37m      13 Γöé import 
+{ ToastService } from [32
+m'../../../core/services/t
+oast.service'[37m;
+         Γò╡              
+                [32m~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2307: Cannot find 
+module 
+'../../../core/models' or 
+its corresponding type 
+declarations.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/stock
+/stock.component.ts:14:53:
+[37m      14 Γöé 
+...tockMovement, Product, 
+MovementType } from [32m'
+../../../core/models'[37m
+;
+         Γò╡              
+                          
+       [32m~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mNG1010: 'imports' 
+must be an array of 
+components, directives, 
+pipes, or NgModules.
+  Value could not be 
+determined 
+statically.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/stock
+/stock.component.ts:21:4:
+[37m      21 Γöé     
+[32mCardComponent[37m, 
+ButtonComponent, 
+BadgeComponent, 
+LoaderComponent,
+         Γò╡     
+[32m~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/stock
+/stock.component.ts:21:4:
+[37m      21 Γöé     
+[32mCardComponent[37m, 
+ButtonComponent, 
+BadgeComponent, 
+LoaderComponent,
+         Γò╡     
+[32m~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mNG1010: 'imports' 
+must be an array of 
+components, directives, 
+pipes, or NgModules.
+  Value could not be 
+determined 
+statically.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/stock
+/stock.component.ts:21:19:
+[37m      21 Γöé     
+CardComponent, [32mButton
+Component[37m, 
+BadgeComponent, 
+LoaderComponent,
+         Γò╡              
+      
+[32m~~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/stock
+/stock.component.ts:21:19:
+[37m      21 Γöé     
+CardComponent, [32mButton
+Component[37m, 
+BadgeComponent, 
+LoaderComponent,
+         Γò╡              
+      
+[32m~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mNG1010: 'imports' 
+must be an array of 
+components, directives, 
+pipes, or NgModules.
+  Value could not be 
+determined 
+statically.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/stock
+/stock.component.ts:21:36:
+[37m      21 Γöé     
+CardComponent, 
+ButtonComponent, 
+[32mBadgeComponent[37m, 
+LoaderComponent,
+         Γò╡              
+                       
+[32m~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/stock
+/stock.component.ts:21:36:
+[37m      21 Γöé     
+CardComponent, 
+ButtonComponent, 
+[32mBadgeComponent[37m, 
+LoaderComponent,
+         Γò╡              
+                       
+[32m~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mNG1010: 'imports' 
+must be an array of 
+components, directives, 
+pipes, or NgModules.
+  Value could not be 
+determined 
+statically.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/stock
+/stock.component.ts:21:52:
+[37m      21 Γöé     
+CardComponent, 
+ButtonComponent, 
+BadgeComponent, 
+[32mLoaderComponent[37m,
+         Γò╡              
+                          
+             
+[32m~~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/stock
+/stock.component.ts:21:52:
+[37m      21 Γöé     
+CardComponent, 
+ButtonComponent, 
+BadgeComponent, 
+[32mLoaderComponent[37m,
+         Γò╡              
+                          
+             
+[32m~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mNG1010: 'imports' 
+must be an array of 
+components, directives, 
+pipes, or NgModules.
+  Value could not be 
+determined 
+statically.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/stock
+/stock.component.ts:22:4:
+[37m      22 Γöé     [32
+mEmptyStateComponent[37m,
+ ModalComponent, 
+InputComponent,
+         Γò╡     [32m~~~~
+~~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/stock
+/stock.component.ts:22:4:
+[37m      22 Γöé     [32
+mEmptyStateComponent[37m,
+ ModalComponent, 
+InputComponent,
+         Γò╡     [32m~~~~
+~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mNG1010: 'imports' 
+must be an array of 
+components, directives, 
+pipes, or NgModules.
+  Value could not be 
+determined 
+statically.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/stock
+/stock.component.ts:22:25:
+[37m      22 Γöé     
+EmptyStateComponent, 
+[32mModalComponent[37m, 
+InputComponent,
+         Γò╡              
+            
+[32m~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/stock
+/stock.component.ts:22:25:
+[37m      22 Γöé     
+EmptyStateComponent, 
+[32mModalComponent[37m, 
+InputComponent,
+         Γò╡              
+            
+[32m~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mNG1010: 'imports' 
+must be an array of 
+components, directives, 
+pipes, or NgModules.
+  Value could not be 
+determined 
+statically.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/stock
+/stock.component.ts:22:41:
+[37m      22 Γöé     
+EmptyStateComponent, 
+ModalComponent, 
+[32mInputComponent[37m,
+         Γò╡              
+                          
+  [32m~~~~~~~~~~~~~~[0m
+
+  Unknown reference.
+
+    src/app/features/stock
+/stock.component.ts:22:41:
+[37m      22 Γöé     
+EmptyStateComponent, 
+ModalComponent, 
+[32mInputComponent[37m,
+         Γò╡              
+                          
+  [32m~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2571: Object is of 
+type 'unknown'.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/stock
+/stock.component.ts:280:4:
+[37m      280 Γöé     [3
+2mthis.productService[37m
+.getAll().subscribe({
+          Γò╡     [32m~~~
+~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS7006: Parameter 
+'products' implicitly has 
+an 'any' type.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/stock
+/stock.component.ts:281:13
+:
+[37m      281 Γöé       
+next: 
+([32mproducts[37m) => th
+is.products.set(products),
+          Γò╡             
+ [32m~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2571: Object is of 
+type 'unknown'.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/stock
+/stock.component.ts:287:4:
+[37m      287 Γöé     [3
+2mthis.inventoryService[3
+7m.getMovements(this.produ
+ctFilter || unde...
+          Γò╡     [32m~~~
+~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS7006: Parameter 
+'movements' implicitly 
+has an 'any' type.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/stock
+/stock.component.ts:288:13
+:
+[37m      288 Γöé       
+next: 
+([32mmovements[37m) => {
+          Γò╡             
+ [32m~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2571: Object is of 
+type 'unknown'.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/stock
+/stock.component.ts:317:4:
+[37m      317 Γöé     [3
+2mthis.inventoryService[3
+7m.recordMovement(data).su
+bscribe({
+          Γò╡     [32m~~~
+~~~~~~~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS7006: Parameter 
+'res' implicitly has an 
+'any' type.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/stock
+/stock.component.ts:318:13
+:
+[37m      318 Γöé       
+next: ([32mres[37m) => {
+          Γò╡             
+ [32m~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2571: Object is of 
+type 'unknown'.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/stock
+/stock.component.ts:323:8:
+[37m      323 Γöé        
+ [32mthis.toast[37m.succ
+ess('Movement Recorded', 
+`Stock updated fo...
+          Γò╡         
+[32m~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS7006: Parameter 
+'err' implicitly has an 
+'any' type.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/stock
+/stock.component.ts:330:14
+:
+[37m      330 Γöé       
+error: ([32merr[37m) => 
+{
+          Γò╡             
+  [32m~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mTS2571: Object is of 
+type 'unknown'.[0m 
+[1m[35m[plugin 
+angular-compiler][0m
+
+    src/app/features/stock
+/stock.component.ts:331:8:
+[37m      331 Γöé        
+ [32mthis.toast[37m.erro
+r('Failed', 
+err.error?.error || 
+'Something...
+          Γò╡         
+[32m~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../shared/ui/card/card.
+component"[0m
+
+    src/app/features/audit
+/audit.component.ts:4:30:
+[37m      4 Γöé ...rt { 
+CardComponent } from [32m
+'../../../shared/ui/card/c
+ard.component'[37m;
+        Γò╡               
+               [32m~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../shared/ui/badge/badg
+e.component"[0m
+
+    src/app/features/audit
+/audit.component.ts:5:31:
+[37m      5 Γöé ...{ 
+BadgeComponent } from [32
+m'../../../shared/ui/badge
+/badge.component'[37m;
+        Γò╡               
+             [32m~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../shared/ui/loader/loa
+der.component"[0m
+
+    src/app/features/audit
+/audit.component.ts:6:32:
+[37m      6 Γöé 
+...oaderComponent } from 
+[32m'../../../shared/ui/lo
+ader/loader.component'[37
+m;
+        Γò╡               
+           [32m~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../shared/ui/empty-stat
+e/empty-state.component"[
+0m
+
+    src/app/features/audit
+/audit.component.ts:7:36:
+[37m      7 Γöé ...nent 
+} from [32m'../../../shar
+ed/ui/empty-state/empty-st
+ate.component'[37m;
+        Γò╡               
+ [32m~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../core/services/audit.
+service"[0m
+
+    src/app/features/audit
+/audit.component.ts:8:29:
+[37m      8 Γöé import { 
+AuditService } from [32m'
+../../../core/services/aud
+it.service'[37m;
+        Γò╡               
+               [32m~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../shared/ui/card/card.
+component"[0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:3:30:
+[37m      3 Γöé ...rt { 
+CardComponent } from [32m
+'../../../shared/ui/card/c
+ard.component'[37m;
+        Γò╡               
+               [32m~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../shared/ui/button/but
+ton.component"[0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:4:32:
+[37m      4 Γöé 
+...uttonComponent } from 
+[32m'../../../shared/ui/bu
+tton/button.component'[37
+m;
+        Γò╡               
+           [32m~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../shared/ui/badge/badg
+e.component"[0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:5:31:
+[37m      5 Γöé ...{ 
+BadgeComponent } from [32
+m'../../../shared/ui/badge
+/badge.component'[37m;
+        Γò╡               
+             [32m~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../shared/ui/loader/loa
+der.component"[0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:6:32:
+[37m      6 Γöé 
+...oaderComponent } from 
+[32m'../../../shared/ui/lo
+ader/loader.component'[37
+m;
+        Γò╡               
+           [32m~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../shared/ui/empty-stat
+e/empty-state.component"[
+0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:7:36:
+[37m      7 Γöé ...nent 
+} from [32m'../../../shar
+ed/ui/empty-state/empty-st
+ate.component'[37m;
+        Γò╡               
+ [32m~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../shared/ui/modal/moda
+l.component"[0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:8:31:
+[37m      8 Γöé ...{ 
+ModalComponent } from [32
+m'../../../shared/ui/modal
+/modal.component'[37m;
+        Γò╡               
+             [32m~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../shared/ui/input/inpu
+t.component"[0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:9:31:
+[37m      9 Γöé ...{ 
+InputComponent } from [32
+m'../../../shared/ui/input
+/input.component'[37m;
+        Γò╡               
+             [32m~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../shared/ui/confirm-di
+alog/confirm-dialog.compon
+ent"[0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:10:39:
+[37m      10 Γöé ...nt } 
+from [32m'../../../shared
+/ui/confirm-dialog/confirm
+-dialog.com[37m...
+         Γò╡              
+[32m~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../core/services/catego
+ry.service"[0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:11:32:
+[37m      11 Γöé ... 
+CategoryService } from [3
+2m'../../../core/services/
+category.service'[37m;
+         Γò╡              
+              [32m~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../core/auth/auth.servi
+ce"[0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:12:28:
+[37m      12 Γöé import 
+{ AuthService } from [32m
+'../../../core/auth/auth.s
+ervice'[37m;
+         Γò╡              
+               [32m~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../core/services/toast.
+service"[0m
+
+    src/app/features/categ
+ories/categories.component
+.ts:13:29:
+[37m      13 Γöé import 
+{ ToastService } from [32
+m'../../../core/services/t
+oast.service'[37m;
+         Γò╡              
+                [32m~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../shared/ui/card/card.
+component"[0m
+
+    src/app/features/dashb
+oard/dashboard.component.t
+s:4:30:
+[37m      4 Γöé ...rt { 
+CardComponent } from [32m
+'../../../shared/ui/card/c
+ard.component'[37m;
+        Γò╡               
+               [32m~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../shared/ui/loader/loa
+der.component"[0m
+
+    src/app/features/dashb
+oard/dashboard.component.t
+s:5:32:
+[37m      5 Γöé 
+...oaderComponent } from 
+[32m'../../../shared/ui/lo
+ader/loader.component'[37
+m;
+        Γò╡               
+           [32m~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../shared/ui/badge/badg
+e.component"[0m
+
+    src/app/features/dashb
+oard/dashboard.component.t
+s:6:31:
+[37m      6 Γöé ...{ 
+BadgeComponent } from [32
+m'../../../shared/ui/badge
+/badge.component'[37m;
+        Γò╡               
+             [32m~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../core/services/produc
+t.service"[0m
+
+    src/app/features/dashb
+oard/dashboard.component.t
+s:7:31:
+[37m      7 Γöé ...t { 
+ProductService } from [32
+m'../../../core/services/p
+roduct.service'[37m;
+        Γò╡               
+               [32m~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../core/services/catego
+ry.service"[0m
+
+    src/app/features/dashb
+oard/dashboard.component.t
+s:8:32:
+[37m      8 Γöé ...{ 
+CategoryService } from [3
+2m'../../../core/services/
+category.service'[37m;
+        Γò╡               
+              [32m~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../core/services/invent
+ory.service"[0m
+
+    src/app/features/dashb
+oard/dashboard.component.t
+s:9:33:
+[37m      9 Γöé 
+...InventoryService } 
+from [32m'../../../core/s
+ervices/inventory.service'
+[37m;
+        Γò╡               
+             [32m~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../core/auth/auth.servi
+ce"[0m
+
+    src/app/features/dashb
+oard/dashboard.component.t
+s:10:28:
+[37m      10 Γöé import 
+{ AuthService } from [32m
+'../../../core/auth/auth.s
+ervice'[37m;
+         Γò╡              
+               [32m~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../shared/ui/card/card.
+component"[0m
+
+    src/app/features/produ
+cts/products.component.ts:
+5:30:
+[37m      5 Γöé ...rt { 
+CardComponent } from [32m
+'../../../shared/ui/card/c
+ard.component'[37m;
+        Γò╡               
+               [32m~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../shared/ui/button/but
+ton.component"[0m
+
+    src/app/features/produ
+cts/products.component.ts:
+6:32:
+[37m      6 Γöé 
+...uttonComponent } from 
+[32m'../../../shared/ui/bu
+tton/button.component'[37
+m;
+        Γò╡               
+           [32m~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../shared/ui/badge/badg
+e.component"[0m
+
+    src/app/features/produ
+cts/products.component.ts:
+7:31:
+[37m      7 Γöé ...{ 
+BadgeComponent } from [32
+m'../../../shared/ui/badge
+/badge.component'[37m;
+        Γò╡               
+             [32m~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../shared/ui/loader/loa
+der.component"[0m
+
+    src/app/features/produ
+cts/products.component.ts:
+8:32:
+[37m      8 Γöé 
+...oaderComponent } from 
+[32m'../../../shared/ui/lo
+ader/loader.component'[37
+m;
+        Γò╡               
+           [32m~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../shared/ui/empty-stat
+e/empty-state.component"[
+0m
+
+    src/app/features/produ
+cts/products.component.ts:
+9:36:
+[37m      9 Γöé ...nent 
+} from [32m'../../../shar
+ed/ui/empty-state/empty-st
+ate.component'[37m;
+        Γò╡               
+ [32m~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../shared/ui/modal/moda
+l.component"[0m
+
+    src/app/features/produ
+cts/products.component.ts:
+10:31:
+[37m      10 Γöé ... 
+ModalComponent } from [32
+m'../../../shared/ui/modal
+/modal.component'[37m;
+         Γò╡              
+             [32m~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../shared/ui/input/inpu
+t.component"[0m
+
+    src/app/features/produ
+cts/products.component.ts:
+11:31:
+[37m      11 Γöé ... 
+InputComponent } from [32
+m'../../../shared/ui/input
+/input.component'[37m;
+         Γò╡              
+             [32m~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../shared/ui/select/sel
+ect.component"[0m
+
+    src/app/features/produ
+cts/products.component.ts:
+12:32:
+[37m      12 Γöé 
+...lectComponent } from [
+32m'../../../shared/ui/sel
+ect/select.component'[37m
+;
+         Γò╡              
+           [32m~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../shared/ui/confirm-di
+alog/confirm-dialog.compon
+ent"[0m
+
+    src/app/features/produ
+cts/products.component.ts:
+13:39:
+[37m      13 Γöé ...nt } 
+from [32m'../../../shared
+/ui/confirm-dialog/confirm
+-dialog.com[37m...
+         Γò╡              
+[32m~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../core/services/produc
+t.service"[0m
+
+    src/app/features/produ
+cts/products.component.ts:
+14:31:
+[37m      14 Γöé ... { 
+ProductService } from [32
+m'../../../core/services/p
+roduct.service'[37m;
+         Γò╡              
+               [32m~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../core/services/catego
+ry.service"[0m
+
+    src/app/features/produ
+cts/products.component.ts:
+15:32:
+[37m      15 Γöé ... 
+CategoryService } from [3
+2m'../../../core/services/
+category.service'[37m;
+         Γò╡              
+              [32m~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../core/auth/auth.servi
+ce"[0m
+
+    src/app/features/produ
+cts/products.component.ts:
+16:28:
+[37m      16 Γöé import 
+{ AuthService } from [32m
+'../../../core/auth/auth.s
+ervice'[37m;
+         Γò╡              
+               [32m~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../core/services/toast.
+service"[0m
+
+    src/app/features/produ
+cts/products.component.ts:
+17:29:
+[37m      17 Γöé import 
+{ ToastService } from [32
+m'../../../core/services/t
+oast.service'[37m;
+         Γò╡              
+                [32m~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../shared/ui/card/card.
+component"[0m
+
+    src/app/features/stock
+/stock.component.ts:5:30:
+[37m      5 Γöé ...rt { 
+CardComponent } from [32m
+'../../../shared/ui/card/c
+ard.component'[37m;
+        Γò╡               
+               [32m~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../shared/ui/button/but
+ton.component"[0m
+
+    src/app/features/stock
+/stock.component.ts:6:32:
+[37m      6 Γöé 
+...uttonComponent } from 
+[32m'../../../shared/ui/bu
+tton/button.component'[37
+m;
+        Γò╡               
+           [32m~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../shared/ui/badge/badg
+e.component"[0m
+
+    src/app/features/stock
+/stock.component.ts:7:31:
+[37m      7 Γöé ...{ 
+BadgeComponent } from [32
+m'../../../shared/ui/badge
+/badge.component'[37m;
+        Γò╡               
+             [32m~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../shared/ui/loader/loa
+der.component"[0m
+
+    src/app/features/stock
+/stock.component.ts:8:32:
+[37m      8 Γöé 
+...oaderComponent } from 
+[32m'../../../shared/ui/lo
+ader/loader.component'[37
+m;
+        Γò╡               
+           [32m~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../shared/ui/empty-stat
+e/empty-state.component"[
+0m
+
+    src/app/features/stock
+/stock.component.ts:9:36:
+[37m      9 Γöé ...nent 
+} from [32m'../../../shar
+ed/ui/empty-state/empty-st
+ate.component'[37m;
+        Γò╡               
+ [32m~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../shared/ui/modal/moda
+l.component"[0m
+
+    src/app/features/stock
+/stock.component.ts:10:31:
+[37m      10 Γöé ... 
+ModalComponent } from [32
+m'../../../shared/ui/modal
+/modal.component'[37m;
+         Γò╡              
+             [32m~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../shared/ui/input/inpu
+t.component"[0m
+
+    src/app/features/stock
+/stock.component.ts:11:31:
+[37m      11 Γöé ... 
+InputComponent } from [32
+m'../../../shared/ui/input
+/input.component'[37m;
+         Γò╡              
+             [32m~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../core/services/invent
+ory.service"[0m
+
+    src/app/features/stock
+/stock.component.ts:12:33:
+[37m      12 Γöé 
+...nventoryService } from 
+[32m'../../../core/servic
+es/inventory.service'[37m
+;
+         Γò╡              
+             [32m~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../core/services/produc
+t.service"[0m
+
+    src/app/features/stock
+/stock.component.ts:13:31:
+[37m      13 Γöé ... { 
+ProductService } from [32
+m'../../../core/services/p
+roduct.service'[37m;
+         Γò╡              
+               [32m~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mER
+ROR[41;31m][0m 
+[1mCould not resolve "../
+../../core/services/toast.
+service"[0m
+
+    src/app/features/stock
+/stock.component.ts:14:29:
+[37m      14 Γöé import 
+{ ToastService } from [32
+m'../../../core/services/t
+oast.service'[37m;
+         Γò╡              
+                [32m~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~[0m
+
+[39m[22m

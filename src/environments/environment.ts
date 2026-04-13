@@ -1,4 +1,4 @@
 export const environment = {
   production: false,
-  apiUrl: 'http://localhost:3001/api',
+  apiUrl: 'https://inventory-management-system-backend-production-d51b.up.railway.app/api',
 };

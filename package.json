@@ -4,8 +4,9 @@
   "scripts": {
     "ng": "ng",
     "config": "node src/environments/set-env.js",
-    "start": "npm run config && ng serve",
-    "build": "npm run config && ng build",
+    "dev": "npm run config && ng serve",
+    "start": "serve -s dist/inventory-frontend/browser -l tcp://0.0.0.0:${PORT:-8080}",
+    "build": "npm run config && ng build --configuration production",
     "watch": "npm run config && ng build --watch --configuration development",
     "test": "ng test"
   },
@@ -23,6 +24,7 @@
     "chart.js": "^4.5.1",
     "postcss": "^8.5.8",
     "rxjs": "~7.8.0",
+    "serve": "^14.2.6",
     "tailwindcss": "^4.2.2",
     "tslib": "^2.3.0"
   },

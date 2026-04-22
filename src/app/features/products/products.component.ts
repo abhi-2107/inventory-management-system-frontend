@@ -8,7 +8,6 @@ import { LoaderComponent } from '../../shared/ui/loader/loader.component';
 import { EmptyStateComponent } from '../../shared/ui/empty-state/empty-state.component';
 import { ModalComponent } from '../../shared/ui/modal/modal.component';
 import { InputComponent } from '../../shared/ui/input/input.component';
-import { SelectComponent } from '../../shared/ui/select/select.component';
 import { ConfirmDialogComponent } from '../../shared/ui/confirm-dialog/confirm-dialog.component';
 import { ProductService } from '../../core/services/product.service';
 import { CategoryService } from '../../core/services/category.service';

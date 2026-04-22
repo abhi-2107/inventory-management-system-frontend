@@ -1,14 +1,13 @@
 import { Component, inject, OnInit, signal, computed, ElementRef, viewChild, AfterViewInit } from '@angular/core';
-import { CurrencyPipe, DecimalPipe } from '@angular/common';
+import { CurrencyPipe } from '@angular/common';
 import { CardComponent } from '../../shared/ui/card/card.component';
 import { LoaderComponent } from '../../shared/ui/loader/loader.component';
 import { BadgeComponent } from '../../shared/ui/badge/badge.component';
 import { ProductService } from '../../core/services/product.service';
 import { CategoryService } from '../../core/services/category.service';
 import { InventoryService } from '../../core/services/inventory.service';
-import { OrganizationService } from '../../core/services/organization.service';
 import { AuthService } from '../../core/auth/auth.service';
-import { Product, Category, StockMovement, Organization } from '../../core/models';
+import { Product, Category, StockMovement } from '../../core/models';
 import { forkJoin } from 'rxjs';
 import { Chart, registerables } from 'chart.js';
 
